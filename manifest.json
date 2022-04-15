@@ -1,0 +1,24 @@
+{
+  "name": "Twitch now 2",
+  "version": "1.0.0",
+  "description": "See who are online :)",
+  "manifest_version": 3,
+  "author": "Nicodemos Souza",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Online now"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "host_permissions": [
+    "*://*.twitch.tv/*",
+    "*://nicodemos234.github.io/*"
+  ],
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "scripting"
+  ]
+}

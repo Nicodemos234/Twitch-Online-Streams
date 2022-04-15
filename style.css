@@ -1,0 +1,57 @@
+a {
+  color: #efeff1;
+  font-size: 10px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 340px;
+  min-height: calc(96vh - 10px);
+  background-color: #0e0e10;
+  color: #efeff1;
+  border: 3px solid #a970ff;
+  padding: 5px;
+}
+
+.card-live {
+  display: flex;
+  max-height: 57px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.card-live:hover {
+  background-color: #18181a;
+}
+
+.card-live h3 {
+  margin: 0px;
+  max-height: 35px;
+  overflow-y: hidden;
+}
+  
+.card-live img {
+  max-width: 100px;
+}
+
+.red-dot {
+  background-color: #eb0400;
+  border-radius: 9000px;
+  width: 0.6rem;
+  height: 0.6rem;
+  display: inline-block;
+  position: relative;
+  margin-bottom: -1px;
+  margin-right: 3px;
+}
+
+.right-side {
+  padding: 0 11px;
+  flex: 1 1;
+}
+
+.line-2 {
+  display: flex;
+  justify-content: space-between;
+}
